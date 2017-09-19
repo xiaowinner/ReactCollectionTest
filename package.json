@@ -1,0 +1,18 @@
+{
+	"name": "collectionTest",
+	"version": "0.0.1",
+	"private": true,
+	"author": "yuanxiaowen",
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start"
+	},
+	"dependencies": {
+		"axios": "^0.16.2",
+		"babel-preset-react-native": "2.1.0",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.48.3",
+		"react-native-fast-image": "^1.0.0",
+		"react-native-masonry": "^0.4.0",
+		"react-native-tab-navigator": "^0.3.4"
+	}
+}

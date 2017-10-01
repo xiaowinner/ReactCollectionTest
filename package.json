@@ -13,6 +13,7 @@
 		"react-native": "0.48.3",
 		"react-native-fast-image": "^1.0.0",
 		"react-native-masonry": "^0.4.0",
-		"react-native-tab-navigator": "^0.3.4"
+		"react-native-tab-navigator": "^0.3.4",
+		"react-navigation": "^1.0.0-beta.11"
 	}
 }

@@ -10,42 +10,10 @@ import {
 } from 'react-native';
 import TabNavigator from 'react-native-tab-navigator';
 import ListView from './View/waterListView';
+import { StackNavigator } from 'react-navigation';
 
+const BasicApp = StackNavigator({
+  Main: {screen: ListView}
+});
 
-export default class collectionTest extends Component {
-
-  constructor() {
-    super();
-
-    this.state = {
-
-      selectedTab: "home"
-
-    };
-
-  }
-
-  render() {
-
-    return (
-
-      <View>
-      <TabNavigator>
-
-      <TabNavigator.item 
-      title = "商城" 
-      tabBarStyle = { {height: 49} } 
-      onPress = { () => this.setState({selectedTab: "home"}) }
-      >
-      </TabNavigator.item>
-
-      </TabNavigator>
-      </View>
-    )
-
-  }
-
-}
-
-
-AppRegistry.registerComponent('collectionTest', () => ListView);
+AppRegistry.registerComponent('collectionTest', () => BasicApp);
